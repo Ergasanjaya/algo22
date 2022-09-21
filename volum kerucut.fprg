@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="MyAsus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-30 05:27:34 "/>
+        <attribute name="created" value="TXlBc3VzO0FTVVM7MjAyMi0wOC0zMDsiMDQ6MzQ6MjggIjsyMTE5"/>
+        <attribute name="edited" value="TXlBc3VzO0FTVVM7MjAyMi0wOC0zMDsiMDU6Mjc6MzQgIjsxOzIyMjc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r, t, v" type="Integer" array="False" size=""/>
+            <input variable="r"/>
+            <input variable="t"/>
+            <if expression="r = 7">
+                <then>
+                    <assign variable="v" expression="1/3 * 22/7 * r * r * t"/>
+                </then>
+                <else>
+                    <assign variable="v" expression="1/3 * 3.14 * r * r * t"/>
+                </else>
+            </if>
+            <output expression="&quot;volume kerucut adalah : &quot; &amp; v" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="MyAsus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-30 04:11:30 "/>
+        <attribute name="created" value="TXlBc3VzO0FTVVM7MjAyMi0wOC0zMDsiMDQ6MDI6MzcgIjsyMTE0"/>
+        <attribute name="edited" value="TXlBc3VzO0FTVVM7MjAyMi0wOC0zMDsiMDQ6MTE6MzAgIjsxOzIyMTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <if expression="a &gt; b">
+                <then>
+                    <output expression="&quot;Lebih besar : &quot; &amp; a" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Lebih besar : &quot; &amp; b" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
